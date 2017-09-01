@@ -8,24 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		B010B0C41F558BB500195FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0C31F558BB500195FA5 /* main.m */; };
-		B010B0C71F558BB500195FA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0C61F558BB500195FA5 /* AppDelegate.m */; };
-		B010B0CA1F558BB500195FA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0C91F558BB500195FA5 /* ViewController.m */; };
 		B010B0CD1F558BB500195FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B010B0CB1F558BB500195FA5 /* Main.storyboard */; };
 		B010B0CF1F558BB500195FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B010B0CE1F558BB500195FA5 /* Assets.xcassets */; };
 		B010B0D21F558BB500195FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B010B0D01F558BB500195FA5 /* LaunchScreen.storyboard */; };
+		B010B0E41F55B74D00195FA5 /* RVAccountsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0E31F55B74D00195FA5 /* RVAccountsController.m */; };
+		B010B0F01F55B7BE00195FA5 /* RVExchangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0EF1F55B7BE00195FA5 /* RVExchangeController.m */; };
+		B010B0F41F55BEF700195FA5 /* RVApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B0F31F55BEF700195FA5 /* RVApplicationAssembly.m */; };
+		B010B1041F55D33A00195FA5 /* RVRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B1031F55D33A00195FA5 /* RVRouter.m */; };
+		B010B1091F55E9C500195FA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B1081F55E9C500195FA5 /* AppDelegate.m */; };
+		B010B1121F55EA3400195FA5 /* RVAccountsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B10E1F55EA3400195FA5 /* RVAccountsViewModel.m */; };
+		B010B1131F55EA3400195FA5 /* RVExchangeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B1111F55EA3400195FA5 /* RVExchangeViewModel.m */; };
+		B010B11D1F56229100195FA5 /* RVCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B11C1F56229000195FA5 /* RVCurrency.m */; };
+		B010B1201F5625A300195FA5 /* RVAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B11F1F5625A300195FA5 /* RVAccount.m */; };
+		B010B1241F562ACD00195FA5 /* RVCurrencyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B1231F562ACD00195FA5 /* RVCurrencyClient.m */; };
+		B010B12B1F562FBC00195FA5 /* RXMLElement+RVCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = B010B12A1F562FBC00195FA5 /* RXMLElement+RVCurrency.m */; };
+		B06838C21F57691700B0F487 /* RVExchangeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838C01F57691700B0F487 /* RVExchangeCollectionCell.m */; };
+		B06838C31F57691700B0F487 /* RVExchangeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06838C11F57691700B0F487 /* RVExchangeCollectionCell.xib */; };
+		B06838C61F5774B700B0F487 /* RVExchangeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838C51F5774B700B0F487 /* RVExchangeDataSource.m */; };
+		B06838CB1F57779700B0F487 /* RVExchangeCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838CA1F57779700B0F487 /* RVExchangeCellViewModel.m */; };
+		B06838D01F58772B00B0F487 /* RVAccountsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838CF1F58772B00B0F487 /* RVAccountsManager.m */; };
+		B06838D91F58E8FB00B0F487 /* RVAccountsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838D81F58E8FB00B0F487 /* RVAccountsView.m */; };
+		B06838DC1F58E91300B0F487 /* RVAccountsExchangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838DB1F58E91300B0F487 /* RVAccountsExchangeButton.m */; };
+		B06838DF1F58EA5E00B0F487 /* RVAccountsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838DE1F58EA5E00B0F487 /* RVAccountsDataSource.m */; };
+		B06838E21F58EE2C00B0F487 /* RVTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838E11F58EE2C00B0F487 /* RVTransaction.m */; };
+		B06838E51F58FA6000B0F487 /* RVTransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838E41F58FA6000B0F487 /* RVTransactionCell.m */; };
+		B06838E91F58FA8C00B0F487 /* RVTransactionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B06838E81F58FA8C00B0F487 /* RVTransactionCellViewModel.m */; };
+		B08823C11F5764BE00ABE003 /* RVExchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B08823C01F5764BE00ABE003 /* RVExchangeView.m */; };
+		CCCB877DFA19D9B026992A80 /* libPods-Revolut.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D323452FDA7F795675EBC /* libPods-Revolut.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D775D0859E215913445EE2 /* Pods-Revolut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.release.xcconfig"; sourceTree = "<group>"; };
+		622D323452FDA7F795675EBC /* libPods-Revolut.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Revolut.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B010B0BF1F558BB500195FA5 /* Revolut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B010B0C31F558BB500195FA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B010B0C51F558BB500195FA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B010B0C61F558BB500195FA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B010B0C81F558BB500195FA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B010B0C91F558BB500195FA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B010B0CC1F558BB500195FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B010B0CE1F558BB500195FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B010B0CE1F558BB500195FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B010B0D11F558BB500195FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B010B0D31F558BB500195FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B010B0E21F55B74D00195FA5 /* RVAccountsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsController.h; sourceTree = "<group>"; };
+		B010B0E31F55B74D00195FA5 /* RVAccountsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsController.m; sourceTree = "<group>"; };
+		B010B0EE1F55B7BE00195FA5 /* RVExchangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeController.h; sourceTree = "<group>"; };
+		B010B0EF1F55B7BE00195FA5 /* RVExchangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeController.m; sourceTree = "<group>"; };
+		B010B0F21F55BEF700195FA5 /* RVApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVApplicationAssembly.h; sourceTree = "<group>"; };
+		B010B0F31F55BEF700195FA5 /* RVApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVApplicationAssembly.m; sourceTree = "<group>"; };
+		B010B0FF1F55D07400195FA5 /* Revolut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Revolut-Prefix.pch"; sourceTree = "<group>"; };
+		B010B1021F55D33A00195FA5 /* RVRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVRouter.h; sourceTree = "<group>"; };
+		B010B1031F55D33A00195FA5 /* RVRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVRouter.m; sourceTree = "<group>"; };
+		B010B1051F55D34E00195FA5 /* RVRoutingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVRoutingProtocol.h; sourceTree = "<group>"; };
+		B010B1071F55E9C500195FA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B010B1081F55E9C500195FA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B010B10D1F55EA3400195FA5 /* RVAccountsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsViewModel.h; sourceTree = "<group>"; };
+		B010B10E1F55EA3400195FA5 /* RVAccountsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsViewModel.m; sourceTree = "<group>"; };
+		B010B1101F55EA3400195FA5 /* RVExchangeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeViewModel.h; sourceTree = "<group>"; };
+		B010B1111F55EA3400195FA5 /* RVExchangeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeViewModel.m; sourceTree = "<group>"; };
+		B010B1141F55EA5A00195FA5 /* RVAccountsViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVAccountsViewModelProtocol.h; sourceTree = "<group>"; };
+		B010B1151F55EA7D00195FA5 /* RVExchangeViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVExchangeViewModelProtocol.h; sourceTree = "<group>"; };
+		B010B11B1F56229000195FA5 /* RVCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrency.h; sourceTree = "<group>"; };
+		B010B11C1F56229000195FA5 /* RVCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrency.m; sourceTree = "<group>"; };
+		B010B11E1F5625A300195FA5 /* RVAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccount.h; sourceTree = "<group>"; };
+		B010B11F1F5625A300195FA5 /* RVAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccount.m; sourceTree = "<group>"; };
+		B010B1221F562ACD00195FA5 /* RVCurrencyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyClient.h; sourceTree = "<group>"; };
+		B010B1231F562ACD00195FA5 /* RVCurrencyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyClient.m; sourceTree = "<group>"; };
+		B010B1251F562ADB00195FA5 /* RVCurrencyClientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVCurrencyClientProtocol.h; sourceTree = "<group>"; };
+		B010B1291F562FBC00195FA5 /* RXMLElement+RVCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RXMLElement+RVCurrency.h"; sourceTree = "<group>"; };
+		B010B12A1F562FBC00195FA5 /* RXMLElement+RVCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RXMLElement+RVCurrency.m"; sourceTree = "<group>"; };
+		B06838BF1F57691700B0F487 /* RVExchangeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeCollectionCell.h; sourceTree = "<group>"; };
+		B06838C01F57691700B0F487 /* RVExchangeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeCollectionCell.m; sourceTree = "<group>"; };
+		B06838C11F57691700B0F487 /* RVExchangeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVExchangeCollectionCell.xib; sourceTree = "<group>"; };
+		B06838C41F5774B700B0F487 /* RVExchangeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeDataSource.h; sourceTree = "<group>"; };
+		B06838C51F5774B700B0F487 /* RVExchangeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeDataSource.m; sourceTree = "<group>"; };
+		B06838C91F57779700B0F487 /* RVExchangeCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeCellViewModel.h; sourceTree = "<group>"; };
+		B06838CA1F57779700B0F487 /* RVExchangeCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeCellViewModel.m; sourceTree = "<group>"; };
+		B06838CC1F5777A900B0F487 /* RVExchangeCellViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVExchangeCellViewModelProtocol.h; sourceTree = "<group>"; };
+		B06838CE1F58772B00B0F487 /* RVAccountsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsManager.h; sourceTree = "<group>"; };
+		B06838CF1F58772B00B0F487 /* RVAccountsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsManager.m; sourceTree = "<group>"; };
+		B06838D11F58774100B0F487 /* RVAccountsManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVAccountsManagerProtocol.h; sourceTree = "<group>"; };
+		B06838D71F58E8FB00B0F487 /* RVAccountsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsView.h; sourceTree = "<group>"; };
+		B06838D81F58E8FB00B0F487 /* RVAccountsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsView.m; sourceTree = "<group>"; };
+		B06838DA1F58E91300B0F487 /* RVAccountsExchangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsExchangeButton.h; sourceTree = "<group>"; };
+		B06838DB1F58E91300B0F487 /* RVAccountsExchangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsExchangeButton.m; sourceTree = "<group>"; };
+		B06838DD1F58EA5E00B0F487 /* RVAccountsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountsDataSource.h; sourceTree = "<group>"; };
+		B06838DE1F58EA5E00B0F487 /* RVAccountsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountsDataSource.m; sourceTree = "<group>"; };
+		B06838E01F58EE2C00B0F487 /* RVTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVTransaction.h; sourceTree = "<group>"; };
+		B06838E11F58EE2C00B0F487 /* RVTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVTransaction.m; sourceTree = "<group>"; };
+		B06838E31F58FA6000B0F487 /* RVTransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVTransactionCell.h; sourceTree = "<group>"; };
+		B06838E41F58FA6000B0F487 /* RVTransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVTransactionCell.m; sourceTree = "<group>"; };
+		B06838E71F58FA8C00B0F487 /* RVTransactionCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVTransactionCellViewModel.h; sourceTree = "<group>"; };
+		B06838E81F58FA8C00B0F487 /* RVTransactionCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVTransactionCellViewModel.m; sourceTree = "<group>"; };
+		B06838EA1F58FA9D00B0F487 /* RVTransactionCellViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVTransactionCellViewModelProtocol.h; sourceTree = "<group>"; };
+		B08823BF1F5764BE00ABE003 /* RVExchangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeView.h; sourceTree = "<group>"; };
+		B08823C01F5764BE00ABE003 /* RVExchangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeView.m; sourceTree = "<group>"; };
+		FE470191AA643F56EB80E1A8 /* Pods-Revolut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +107,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCB877DFA19D9B026992A80 /* libPods-Revolut.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142C8616023E2D76DF4C63E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				622D323452FDA7F795675EBC /* libPods-Revolut.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		766533E2493708FAD68855E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE470191AA643F56EB80E1A8 /* Pods-Revolut.debug.xcconfig */,
+				19D775D0859E215913445EE2 /* Pods-Revolut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B010B0B61F558BB500195FA5 = {
 			isa = PBXGroup;
 			children = (
 				B010B0C11F558BB500195FA5 /* Revolut */,
 				B010B0C01F558BB500195FA5 /* Products */,
+				766533E2493708FAD68855E3 /* Pods */,
+				142C8616023E2D76DF4C63E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +152,13 @@
 		B010B0C11F558BB500195FA5 /* Revolut */ = {
 			isa = PBXGroup;
 			children = (
-				B010B0C51F558BB500195FA5 /* AppDelegate.h */,
-				B010B0C61F558BB500195FA5 /* AppDelegate.m */,
-				B010B0C81F558BB500195FA5 /* ViewController.h */,
-				B010B0C91F558BB500195FA5 /* ViewController.m */,
-				B010B0CB1F558BB500195FA5 /* Main.storyboard */,
-				B010B0CE1F558BB500195FA5 /* Assets.xcassets */,
-				B010B0D01F558BB500195FA5 /* LaunchScreen.storyboard */,
-				B010B0D31F558BB500195FA5 /* Info.plist */,
+				B010B1061F55E9C500195FA5 /* AppDelegate */,
+				B010B0DA1F55AC2200195FA5 /* ViewControllers */,
+				B010B10B1F55EA3400195FA5 /* ViewModels */,
+				B010B0D91F55AC2200195FA5 /* Models */,
+				B010B0DB1F55AC5900195FA5 /* Components */,
+				B010B0F11F55BED100195FA5 /* Assembly */,
+				B010B0DC1F55AC7600195FA5 /* Resources */,
 				B010B0C21F558BB500195FA5 /* Supporting Files */,
 			);
 			path = Revolut;
@@ -74,9 +167,206 @@
 		B010B0C21F558BB500195FA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B010B0D31F558BB500195FA5 /* Info.plist */,
 				B010B0C31F558BB500195FA5 /* main.m */,
+				B010B0FF1F55D07400195FA5 /* Revolut-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B010B0D91F55AC2200195FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B010B11B1F56229000195FA5 /* RVCurrency.h */,
+				B010B11C1F56229000195FA5 /* RVCurrency.m */,
+				B010B11E1F5625A300195FA5 /* RVAccount.h */,
+				B010B11F1F5625A300195FA5 /* RVAccount.m */,
+				B06838E01F58EE2C00B0F487 /* RVTransaction.h */,
+				B06838E11F58EE2C00B0F487 /* RVTransaction.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B010B0DA1F55AC2200195FA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B010B0E11F55B73700195FA5 /* RVAccountsController */,
+				B010B0DD1F55ADC200195FA5 /* RVExchangeController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B010B0DB1F55AC5900195FA5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B06838CD1F58771400B0F487 /* RVAccountsManager */,
+				B010B1211F562AA200195FA5 /* RVCurrencyClient */,
+				B010B1011F55D32900195FA5 /* RVRouter */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B010B0DC1F55AC7600195FA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B010B0CB1F558BB500195FA5 /* Main.storyboard */,
+				B010B0CE1F558BB500195FA5 /* Assets.xcassets */,
+				B010B0D01F558BB500195FA5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B010B0DD1F55ADC200195FA5 /* RVExchangeController */ = {
+			isa = PBXGroup;
+			children = (
+				B010B0EE1F55B7BE00195FA5 /* RVExchangeController.h */,
+				B010B0EF1F55B7BE00195FA5 /* RVExchangeController.m */,
+				B08823BB1F575E4700ABE003 /* Views */,
+			);
+			path = RVExchangeController;
+			sourceTree = "<group>";
+		};
+		B010B0E11F55B73700195FA5 /* RVAccountsController */ = {
+			isa = PBXGroup;
+			children = (
+				B010B0E21F55B74D00195FA5 /* RVAccountsController.h */,
+				B010B0E31F55B74D00195FA5 /* RVAccountsController.m */,
+				B06838D61F58E8E900B0F487 /* Views */,
+			);
+			name = RVAccountsController;
+			path = RVCardsController;
+			sourceTree = "<group>";
+		};
+		B010B0F11F55BED100195FA5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				B010B0F21F55BEF700195FA5 /* RVApplicationAssembly.h */,
+				B010B0F31F55BEF700195FA5 /* RVApplicationAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		B010B1011F55D32900195FA5 /* RVRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B010B1021F55D33A00195FA5 /* RVRouter.h */,
+				B010B1031F55D33A00195FA5 /* RVRouter.m */,
+				B010B1051F55D34E00195FA5 /* RVRoutingProtocol.h */,
+			);
+			path = RVRouter;
+			sourceTree = "<group>";
+		};
+		B010B1061F55E9C500195FA5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B010B1071F55E9C500195FA5 /* AppDelegate.h */,
+				B010B1081F55E9C500195FA5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B010B10B1F55EA3400195FA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B010B10C1F55EA3400195FA5 /* RVAccountsViewModel */,
+				B010B10F1F55EA3400195FA5 /* RVExchangeViewModel */,
+				B06838C81F57777600B0F487 /* RVExchangeCellViewModel */,
+				B06838E61F58FA7600B0F487 /* RVTransactionCellViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B010B10C1F55EA3400195FA5 /* RVAccountsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B010B10D1F55EA3400195FA5 /* RVAccountsViewModel.h */,
+				B010B10E1F55EA3400195FA5 /* RVAccountsViewModel.m */,
+				B010B1141F55EA5A00195FA5 /* RVAccountsViewModelProtocol.h */,
+			);
+			name = RVAccountsViewModel;
+			path = RVCardsViewModel;
+			sourceTree = "<group>";
+		};
+		B010B10F1F55EA3400195FA5 /* RVExchangeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B010B1101F55EA3400195FA5 /* RVExchangeViewModel.h */,
+				B010B1111F55EA3400195FA5 /* RVExchangeViewModel.m */,
+				B010B1151F55EA7D00195FA5 /* RVExchangeViewModelProtocol.h */,
+			);
+			path = RVExchangeViewModel;
+			sourceTree = "<group>";
+		};
+		B010B1211F562AA200195FA5 /* RVCurrencyClient */ = {
+			isa = PBXGroup;
+			children = (
+				B010B1221F562ACD00195FA5 /* RVCurrencyClient.h */,
+				B010B1231F562ACD00195FA5 /* RVCurrencyClient.m */,
+				B010B1251F562ADB00195FA5 /* RVCurrencyClientProtocol.h */,
+				B010B1291F562FBC00195FA5 /* RXMLElement+RVCurrency.h */,
+				B010B12A1F562FBC00195FA5 /* RXMLElement+RVCurrency.m */,
+			);
+			path = RVCurrencyClient;
+			sourceTree = "<group>";
+		};
+		B06838C81F57777600B0F487 /* RVExchangeCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B06838C91F57779700B0F487 /* RVExchangeCellViewModel.h */,
+				B06838CA1F57779700B0F487 /* RVExchangeCellViewModel.m */,
+				B06838CC1F5777A900B0F487 /* RVExchangeCellViewModelProtocol.h */,
+			);
+			path = RVExchangeCellViewModel;
+			sourceTree = "<group>";
+		};
+		B06838CD1F58771400B0F487 /* RVAccountsManager */ = {
+			isa = PBXGroup;
+			children = (
+				B06838CE1F58772B00B0F487 /* RVAccountsManager.h */,
+				B06838CF1F58772B00B0F487 /* RVAccountsManager.m */,
+				B06838D11F58774100B0F487 /* RVAccountsManagerProtocol.h */,
+			);
+			path = RVAccountsManager;
+			sourceTree = "<group>";
+		};
+		B06838D61F58E8E900B0F487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B06838DD1F58EA5E00B0F487 /* RVAccountsDataSource.h */,
+				B06838DE1F58EA5E00B0F487 /* RVAccountsDataSource.m */,
+				B06838D71F58E8FB00B0F487 /* RVAccountsView.h */,
+				B06838D81F58E8FB00B0F487 /* RVAccountsView.m */,
+				B06838E31F58FA6000B0F487 /* RVTransactionCell.h */,
+				B06838E41F58FA6000B0F487 /* RVTransactionCell.m */,
+				B06838DA1F58E91300B0F487 /* RVAccountsExchangeButton.h */,
+				B06838DB1F58E91300B0F487 /* RVAccountsExchangeButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B06838E61F58FA7600B0F487 /* RVTransactionCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B06838E71F58FA8C00B0F487 /* RVTransactionCellViewModel.h */,
+				B06838E81F58FA8C00B0F487 /* RVTransactionCellViewModel.m */,
+				B06838EA1F58FA9D00B0F487 /* RVTransactionCellViewModelProtocol.h */,
+			);
+			name = RVTransactionCellViewModel;
+			path = RVExchangeCellViewModel/RVTransactionCellViewModel;
+			sourceTree = "<group>";
+		};
+		B08823BB1F575E4700ABE003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B08823BF1F5764BE00ABE003 /* RVExchangeView.h */,
+				B08823C01F5764BE00ABE003 /* RVExchangeView.m */,
+				B06838C41F5774B700B0F487 /* RVExchangeDataSource.h */,
+				B06838C51F5774B700B0F487 /* RVExchangeDataSource.m */,
+				B06838BF1F57691700B0F487 /* RVExchangeCollectionCell.h */,
+				B06838C01F57691700B0F487 /* RVExchangeCollectionCell.m */,
+				B06838C11F57691700B0F487 /* RVExchangeCollectionCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B010B0D61F558BB500195FA5 /* Build configuration list for PBXNativeTarget "Revolut" */;
 			buildPhases = (
+				9FAAF2ED21AE708379CEE8CA /* [CP] Check Pods Manifest.lock */,
 				B010B0BB1F558BB500195FA5 /* Sources */,
 				B010B0BC1F558BB500195FA5 /* Frameworks */,
 				B010B0BD1F558BB500195FA5 /* Resources */,
+				2D1AD52A247B981142525329 /* [CP] Embed Pods Frameworks */,
+				0D0693AE8856CB3C695BB293 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B010B0D21F558BB500195FA5 /* LaunchScreen.storyboard in Resources */,
+				B06838C31F57691700B0F487 /* RVExchangeCollectionCell.xib in Resources */,
 				B010B0CF1F558BB500195FA5 /* Assets.xcassets in Resources */,
 				B010B0CD1F558BB500195FA5 /* Main.storyboard in Resources */,
 			);
@@ -146,14 +440,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D0693AE8856CB3C695BB293 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revolut/Pods-Revolut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D1AD52A247B981142525329 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revolut/Pods-Revolut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAAF2ED21AE708379CEE8CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Revolut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B010B0BB1F558BB500195FA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B010B0CA1F558BB500195FA5 /* ViewController.m in Sources */,
-				B010B0C71F558BB500195FA5 /* AppDelegate.m in Sources */,
+				B06838E51F58FA6000B0F487 /* RVTransactionCell.m in Sources */,
+				B010B0F41F55BEF700195FA5 /* RVApplicationAssembly.m in Sources */,
+				B010B12B1F562FBC00195FA5 /* RXMLElement+RVCurrency.m in Sources */,
+				B010B0F01F55B7BE00195FA5 /* RVExchangeController.m in Sources */,
+				B010B1201F5625A300195FA5 /* RVAccount.m in Sources */,
+				B010B1241F562ACD00195FA5 /* RVCurrencyClient.m in Sources */,
+				B06838D01F58772B00B0F487 /* RVAccountsManager.m in Sources */,
+				B06838E91F58FA8C00B0F487 /* RVTransactionCellViewModel.m in Sources */,
+				B06838E21F58EE2C00B0F487 /* RVTransaction.m in Sources */,
+				B08823C11F5764BE00ABE003 /* RVExchangeView.m in Sources */,
 				B010B0C41F558BB500195FA5 /* main.m in Sources */,
+				B06838DF1F58EA5E00B0F487 /* RVAccountsDataSource.m in Sources */,
+				B06838C61F5774B700B0F487 /* RVExchangeDataSource.m in Sources */,
+				B010B1091F55E9C500195FA5 /* AppDelegate.m in Sources */,
+				B06838C21F57691700B0F487 /* RVExchangeCollectionCell.m in Sources */,
+				B06838DC1F58E91300B0F487 /* RVAccountsExchangeButton.m in Sources */,
+				B010B0E41F55B74D00195FA5 /* RVAccountsController.m in Sources */,
+				B010B1041F55D33A00195FA5 /* RVRouter.m in Sources */,
+				B010B1121F55EA3400195FA5 /* RVAccountsViewModel.m in Sources */,
+				B06838D91F58E8FB00B0F487 /* RVAccountsView.m in Sources */,
+				B010B11D1F56229100195FA5 /* RVCurrency.m in Sources */,
+				B06838CB1F57779700B0F487 /* RVExchangeCellViewModel.m in Sources */,
+				B010B1131F55EA3400195FA5 /* RVExchangeViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +531,7 @@
 				B010B0CC1F558BB500195FA5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B010B0D01F558BB500195FA5 /* LaunchScreen.storyboard */ = {
@@ -174,6 +540,7 @@
 				B010B0D11F558BB500195FA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,10 +638,13 @@
 		};
 		B010B0D71F558BB500195FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE470191AA643F56EB80E1A8 /* Pods-Revolut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3JC7L246RL;
+				GCC_PREFIX_HEADER = "Revolut/Revolut-Prefix.pch";
 				INFOPLIST_FILE = Revolut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fesolution.Revolut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +653,13 @@
 		};
 		B010B0D81F558BB500195FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D775D0859E215913445EE2 /* Pods-Revolut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3JC7L246RL;
+				GCC_PREFIX_HEADER = "Revolut/Revolut-Prefix.pch";
 				INFOPLIST_FILE = Revolut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fesolution.Revolut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +685,7 @@
 				B010B0D81F558BB500195FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

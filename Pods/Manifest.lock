@@ -1,0 +1,68 @@
+PODS:
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - NSArray+Functional (1.0.0)
+  - RaptureXML (1.0.1)
+  - ReactiveObjC (3.0.0)
+  - Typhoon (4.0.2):
+    - Typhoon/DeallocNotifier (= 4.0.2)
+    - Typhoon/IntrospectionUtils (= 4.0.2)
+    - Typhoon/no-arc (= 4.0.2)
+  - Typhoon/DeallocNotifier (4.0.2)
+  - Typhoon/IntrospectionUtils (4.0.2)
+  - Typhoon/no-arc (4.0.2):
+    - Typhoon/IntrospectionUtils
+  - UIColor-Utilities (1.0.1)
+
+DEPENDENCIES:
+  - libextobjc
+  - NSArray+Functional
+  - RaptureXML
+  - ReactiveObjC
+  - Typhoon
+  - UIColor-Utilities
+
+SPEC CHECKSUMS:
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  NSArray+Functional: 70450a935ad6cf933f675251311c14385815506d
+  RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  Typhoon: 05db9d33d798b90c202bf3f754275c03efe93297
+  UIColor-Utilities: 6746a54dcdb3bc012dd7aeaeea5588ae2100beb2
+
+PODFILE CHECKSUM: 65a99d85803df15e15137b01a58059b4328da671
+
+COCOAPODS: 1.3.1
