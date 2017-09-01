@@ -79,6 +79,9 @@
     if (isTop) {
         [cell.textField becomeFirstResponder];
     }
+    if (self.needUpdatePageControlIndexBlock) {
+        self.needUpdatePageControlIndexBlock(isTop, [collectionView.indexPathsForVisibleItems.firstObject row]%3);
+    }
 }
 
 #pragma mark UICollectionViewDelegateFlowLayout

@@ -13,9 +13,10 @@
 
 @interface RVExchangeController ()
 {
-    RVExchangeView* _exchangeView;
     RVExchangeDataSource* _exchangeDataSource;
 }
+@property (nonatomic, weak) RVExchangeView* exchangeView;
+
 @end
 
 @implementation RVExchangeController
@@ -29,8 +30,13 @@
     _exchangeView = (RVExchangeView *)self.view;
     _exchangeDataSource = [[RVExchangeDataSource alloc] initWithViewModel:_viewModel];
     
+    __weak typeof(self) wSelf = self;
     [_exchangeDataSource configure:_exchangeView.firstCollectionView];
     [_exchangeDataSource configure:_exchangeView.secondCollectionView];
+    [_exchangeDataSource setNeedUpdatePageControlIndexBlock:^(BOOL isTop, NSInteger idx) {
+        UIPageControl* control = isTop ? wSelf.exchangeView.firstPageControl : wSelf.exchangeView.seconPageControl;
+        control.currentPage = idx;
+    }];
     
     [_exchangeView addCancelToItem:self.navigationItem withCommand:_viewModel.rac_cancel];
     [_exchangeView addExchangeToItem:self.navigationItem withCommand:_viewModel.rac_exchange enableSignal:_viewModel.rac_exchangeEnabled];
